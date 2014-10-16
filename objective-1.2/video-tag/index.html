@@ -11,10 +11,12 @@
             <section>
                 <p>This page is using a html5 video tag for a background. It looks cool but its propably a really bad idea!</p>
                 <br />
-                <p>The video was borrowed from here: <a href="http://www.beachfrontbroll.com/2014/10/FreeStockFootageofRaindrops.html#more">http://www.beachfrontbroll.com/2014/10/FreeStockFootageofRaindrops.html#more</a> </p>
+                <p>The video was borrowed from here: <a href="http://www.beachfrontbroll.com/2014/10/FreeStockFootageofRaindrops.html#more">beachfrontbroll.com</a> </p>
             </section>
         </div>
-        <video src="background.mp4" autoplay loop >
+        <video src="background.mp4" autoplay loop poster="background.png" >
+            <source src="background.mp4" type="video/mp4" />
+            <img src="background.png" />
         </video>       
     </body>
 </html>
