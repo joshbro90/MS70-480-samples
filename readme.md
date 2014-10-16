@@ -1,0 +1,1 @@
+This repo is a collection of little samples i created while working through the MS 70-480 Exam.
