@@ -1,0 +1,7 @@
+img { width:300px; margin: 300px;}
+
+.rotate { transform: rotate(180deg); }
+.scale { transform: scale(2); }
+.translate { transform: translate(100px, 100px); }
+.skew { transform: skew(20deg, 30deg); }
+.all { transform: rotate(180deg) scale(2) translate(100px, 100px) skew(20deg, 30deg); }
